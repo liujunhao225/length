@@ -83,7 +83,7 @@ public class LengthTransferTest {
 						number.remove(2);
 						number.remove(1);
 
-						number.set(0, String.valueOf(no1));
+						number.set(0, String.valueOf(result));
 						continue;
 					} else {
 						number.set(0, "operator is not include?");// 如果是其它字符就不处理
@@ -118,7 +118,7 @@ public class LengthTransferTest {
 		Map<String, String> map = new HashMap<String, String>();
 		map.put("miles", "mile");
 		map.put("yards", "yard");
-		map.put("inchs", "inch");
+		map.put("inches", "inch");
 		map.put("feet", "foot");
 		map.put("faths", "fath");
 		map.put("furlongs", "furlong");
